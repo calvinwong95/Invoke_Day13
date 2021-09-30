@@ -59,7 +59,7 @@ function enterRoom() {
     console.log("its working");
 
     
-    window.open("C:/Users/Lenovo/Desktop/InvokeFrontEnd/Day13/demo2-chatbox.html",'_blank');
+    window.open("demo2-chatbox.html",'_blank');
 }
 
 function removeRoom() {
