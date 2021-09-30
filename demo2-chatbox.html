@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="demo2-chatbox-styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+</head>
+<body>
+    <div id="container">
+        <div id="chatbox-screen"></div>
+        <div id="chatbox-holder">
+            <!-- <input id="inputText" type="text" placeholder="name"> -->
+            <h1 id="input-name">0</h1>
+            <input id="inputMsg" type="text"
+            placeholder=" Message">
+            <button id="sendBtn" onclick="sendInfo()">Send</button>
+        </div>
+    </div>
+    <!-- firebase app-->
+    <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+    <!-- firebase real time -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-database.js"></script>
+    <script src="demo2-chatbox.js"></script>
+</body>
+</html>

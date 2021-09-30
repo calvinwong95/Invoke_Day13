@@ -1,0 +1,17 @@
+* {margin: 0; padding: 0; box-sizing: border-box;} 
+
+#container {
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    
+    font-family: sans-serif;
+}
+
+p {
+    display:inline-block;
+    margin-left: 50px;
+}

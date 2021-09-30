@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox Login</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Please fill in your username:</h1>
+        <div id="content-holder">
+            <input id="username" type="text" placeholder="Enter your username">
+            <button onclick="directUser()">Register</button> 
+            <a href="C:\Users\Lenovo\Desktop\InvokeFrontEnd\Day13\index2.html" ><i class="fas fa-book-open"></i></a>
+        </div>
+        
+        <div id="popUp">
+            <h1>Thanks For Registering!</h1>
+            <p>Click the book to enter chatroom!</p>
+        </div>
+    </div>
+    
+</body>
+
+<script>
+    
+
+    function directUser() {
+        var user = document.getElementById("username").value;
+        sessionStorage.setItem('userName', user);
+        
+        var popUp = document.getElementById("popUp");
+
+        popUp.style.opacity = 1;
+       
+    }
+    
+</script>
+</html>
